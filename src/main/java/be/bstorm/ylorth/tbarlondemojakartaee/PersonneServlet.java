@@ -12,7 +12,7 @@ import java.time.LocalDate;
 @WebServlet("/personne")
 public class PersonneServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         Personne p = new Personne();
         p.nom = req.getParameter("nom");
@@ -23,6 +23,10 @@ public class PersonneServlet extends HttpServlet {
 
         resp.setStatus(200);
 
-        System.out.println(p);
+        //envoyer l'info à ma jsp
+        req.setAttribute("test",p);
+
+        //déléguer le reste du travail (l'affichage) à la jsp
+        req.getRequestDispatcher("/getone.jsp").forward(req,resp);
     }
 }
