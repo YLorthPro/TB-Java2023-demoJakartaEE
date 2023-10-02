@@ -10,12 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af391590-34b4-45c7-ae48-d211ff5d4348" name="Changes" comment="Personne">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/getone.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/ylorth/tbarlondemojakartaee/PersonneServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/ylorth/tbarlondemojakartaee/PersonneServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/personne.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/personne.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/getone.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/getone.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +208,7 @@
       <workItem from="1695975367717" duration="17000" />
       <workItem from="1696228923992" duration="12000" />
       <workItem from="1696228967523" duration="753000" />
-      <workItem from="1696232480565" duration="2417000" />
+      <workItem from="1696232480565" duration="7296000" />
     </task>
     <task id="LOCAL-00001" summary="Personne">
       <option name="closed" value="true" />
@@ -221,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695827394940</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JSP">
+      <option name="closed" value="true" />
+      <created>1696235098835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696235098835</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,8 +238,20 @@
     <option featureType="com.intellij.configurationType" implementationName="com.poratu.idea.plugins.tomcat" />
     <option featureType="dependencySupport" implementationName="maven-packaging:war" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Personne" />
-    <option name="LAST_COMMIT_MESSAGE" value="Personne" />
+    <MESSAGE value="JSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSP" />
   </component>
 </project>
